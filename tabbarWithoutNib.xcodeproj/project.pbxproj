@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72853364139CC04600BE81AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72853363139CC04600BE81AD /* UIKit.framework */; };
+		72853366139CC04600BE81AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72853365139CC04600BE81AD /* Foundation.framework */; };
+		72853368139CC04600BE81AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72853367139CC04600BE81AD /* CoreGraphics.framework */; };
+		7285336E139CC04600BE81AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7285336C139CC04600BE81AD /* InfoPlist.strings */; };
+		72853371139CC04600BE81AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72853370139CC04600BE81AD /* main.m */; };
+		72853374139CC04600BE81AD /* tabbarWithoutNibAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72853373139CC04600BE81AD /* tabbarWithoutNibAppDelegate.m */; };
+		72853377139CC04600BE81AD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72853375139CC04600BE81AD /* MainWindow.xib */; };
+		72853393139CC1FC00BE81AD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72853392139CC1FC00BE81AD /* FirstViewController.m */; };
+		72853397139CC22000BE81AD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72853396139CC22000BE81AD /* SecondViewController.m */; };
+		72853399139CC6B400BE81AD /* frootopiaBkgd.png in Resources */ = {isa = PBXBuildFile; fileRef = 72853398139CC6B400BE81AD /* frootopiaBkgd.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7285335F139CC04600BE81AD /* tabbarWithoutNib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabbarWithoutNib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72853363139CC04600BE81AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72853365139CC04600BE81AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72853367139CC04600BE81AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7285336B139CC04600BE81AD /* tabbarWithoutNib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tabbarWithoutNib-Info.plist"; sourceTree = "<group>"; };
+		7285336D139CC04600BE81AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7285336F139CC04600BE81AD /* tabbarWithoutNib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tabbarWithoutNib-Prefix.pch"; sourceTree = "<group>"; };
+		72853370139CC04600BE81AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72853372139CC04600BE81AD /* tabbarWithoutNibAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabbarWithoutNibAppDelegate.h; sourceTree = "<group>"; };
+		72853373139CC04600BE81AD /* tabbarWithoutNibAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabbarWithoutNibAppDelegate.m; sourceTree = "<group>"; };
+		72853376139CC04600BE81AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		72853391139CC1FC00BE81AD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		72853392139CC1FC00BE81AD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		72853395139CC22000BE81AD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		72853396139CC22000BE81AD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		72853398139CC6B400BE81AD /* frootopiaBkgd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frootopiaBkgd.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7285335C139CC04600BE81AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72853364139CC04600BE81AD /* UIKit.framework in Frameworks */,
+				72853366139CC04600BE81AD /* Foundation.framework in Frameworks */,
+				72853368139CC04600BE81AD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72853354139CC04600BE81AD = {
+			isa = PBXGroup;
+			children = (
+				72853369139CC04600BE81AD /* tabbarWithoutNib */,
+				72853362139CC04600BE81AD /* Frameworks */,
+				72853360139CC04600BE81AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72853360139CC04600BE81AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7285335F139CC04600BE81AD /* tabbarWithoutNib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72853362139CC04600BE81AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72853363139CC04600BE81AD /* UIKit.framework */,
+				72853365139CC04600BE81AD /* Foundation.framework */,
+				72853367139CC04600BE81AD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72853369139CC04600BE81AD /* tabbarWithoutNib */ = {
+			isa = PBXGroup;
+			children = (
+				72853394139CC20100BE81AD /* ViewControllers */,
+				72853372139CC04600BE81AD /* tabbarWithoutNibAppDelegate.h */,
+				72853373139CC04600BE81AD /* tabbarWithoutNibAppDelegate.m */,
+				72853375139CC04600BE81AD /* MainWindow.xib */,
+				7285336A139CC04600BE81AD /* Supporting Files */,
+			);
+			path = tabbarWithoutNib;
+			sourceTree = "<group>";
+		};
+		7285336A139CC04600BE81AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72853398139CC6B400BE81AD /* frootopiaBkgd.png */,
+				7285336B139CC04600BE81AD /* tabbarWithoutNib-Info.plist */,
+				7285336C139CC04600BE81AD /* InfoPlist.strings */,
+				7285336F139CC04600BE81AD /* tabbarWithoutNib-Prefix.pch */,
+				72853370139CC04600BE81AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72853394139CC20100BE81AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				72853391139CC1FC00BE81AD /* FirstViewController.h */,
+				72853392139CC1FC00BE81AD /* FirstViewController.m */,
+				72853395139CC22000BE81AD /* SecondViewController.h */,
+				72853396139CC22000BE81AD /* SecondViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7285335E139CC04600BE81AD /* tabbarWithoutNib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7285337A139CC04600BE81AD /* Build configuration list for PBXNativeTarget "tabbarWithoutNib" */;
+			buildPhases = (
+				7285335B139CC04600BE81AD /* Sources */,
+				7285335C139CC04600BE81AD /* Frameworks */,
+				7285335D139CC04600BE81AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tabbarWithoutNib;
+			productName = tabbarWithoutNib;
+			productReference = 7285335F139CC04600BE81AD /* tabbarWithoutNib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72853356139CC04600BE81AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ashramsey;
+			};
+			buildConfigurationList = 72853359139CC04600BE81AD /* Build configuration list for PBXProject "tabbarWithoutNib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72853354139CC04600BE81AD;
+			productRefGroup = 72853360139CC04600BE81AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7285335E139CC04600BE81AD /* tabbarWithoutNib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7285335D139CC04600BE81AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7285336E139CC04600BE81AD /* InfoPlist.strings in Resources */,
+				72853377139CC04600BE81AD /* MainWindow.xib in Resources */,
+				72853399139CC6B400BE81AD /* frootopiaBkgd.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7285335B139CC04600BE81AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72853371139CC04600BE81AD /* main.m in Sources */,
+				72853374139CC04600BE81AD /* tabbarWithoutNibAppDelegate.m in Sources */,
+				72853393139CC1FC00BE81AD /* FirstViewController.m in Sources */,
+				72853397139CC22000BE81AD /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7285336C139CC04600BE81AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7285336D139CC04600BE81AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72853375139CC04600BE81AD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72853376139CC04600BE81AD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72853378139CC04600BE81AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72853379139CC04600BE81AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7285337B139CC04600BE81AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tabbarWithoutNib/tabbarWithoutNib-Prefix.pch";
+				INFOPLIST_FILE = "tabbarWithoutNib/tabbarWithoutNib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7285337C139CC04600BE81AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tabbarWithoutNib/tabbarWithoutNib-Prefix.pch";
+				INFOPLIST_FILE = "tabbarWithoutNib/tabbarWithoutNib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72853359139CC04600BE81AD /* Build configuration list for PBXProject "tabbarWithoutNib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72853378139CC04600BE81AD /* Debug */,
+				72853379139CC04600BE81AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7285337A139CC04600BE81AD /* Build configuration list for PBXNativeTarget "tabbarWithoutNib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7285337B139CC04600BE81AD /* Debug */,
+				7285337C139CC04600BE81AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72853356139CC04600BE81AD /* Project object */;
+}
