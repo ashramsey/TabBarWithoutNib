@@ -17,6 +17,7 @@
 		72853393139CC1FC00BE81AD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72853392139CC1FC00BE81AD /* FirstViewController.m */; };
 		72853397139CC22000BE81AD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72853396139CC22000BE81AD /* SecondViewController.m */; };
 		72853399139CC6B400BE81AD /* frootopiaBkgd.png in Resources */ = {isa = PBXBuildFile; fileRef = 72853398139CC6B400BE81AD /* frootopiaBkgd.png */; };
+		728533A4139CFE7A00BE81AD /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728533A3139CFE7A00BE81AD /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		72853395139CC22000BE81AD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		72853396139CC22000BE81AD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		72853398139CC6B400BE81AD /* frootopiaBkgd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frootopiaBkgd.png; sourceTree = "<group>"; };
+		728533A2139CFE7A00BE81AD /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		728533A3139CFE7A00BE81AD /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				72853392139CC1FC00BE81AD /* FirstViewController.m */,
 				72853395139CC22000BE81AD /* SecondViewController.h */,
 				72853396139CC22000BE81AD /* SecondViewController.m */,
+				728533A2139CFE7A00BE81AD /* ThirdViewController.h */,
+				728533A3139CFE7A00BE81AD /* ThirdViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				72853374139CC04600BE81AD /* tabbarWithoutNibAppDelegate.m in Sources */,
 				72853393139CC1FC00BE81AD /* FirstViewController.m in Sources */,
 				72853397139CC22000BE81AD /* SecondViewController.m in Sources */,
+				728533A4139CFE7A00BE81AD /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

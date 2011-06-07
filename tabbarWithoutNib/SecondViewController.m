@@ -15,6 +15,7 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
+    // NSLog(@"%s", __FUNCTION__);
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -47,6 +48,7 @@
 
 - (void) buttonAction
 {
+    // NSLog(@"%s", __FUNCTION__);
     // Create an alert programmatically
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert Title" message:@"This is the Alert Message" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles: nil];
     [alert show];
@@ -55,12 +57,14 @@
 
 - (void)dealloc
 {
+    // NSLog(@"%s", __FUNCTION__);
     [myButton release];
     [super dealloc];
 }
 
 - (void)didReceiveMemoryWarning
 {
+    // NSLog(@"%s", __FUNCTION__);
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
@@ -86,6 +90,7 @@
 
 - (void)viewDidUnload
 {
+    // NSLog(@"%s", __FUNCTION__);
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -93,6 +98,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    // NSLog(@"%s", __FUNCTION__);
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }

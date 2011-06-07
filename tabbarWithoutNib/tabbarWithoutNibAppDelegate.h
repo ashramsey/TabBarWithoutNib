@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 @class FirstViewController;
 @class SecondViewController;
+@class ThirdViewController;
 
 @interface tabbarWithoutNibAppDelegate : NSObject <UIApplicationDelegate> {
     UITabBarController *tabbarController;
     
     FirstViewController *firstVC;
     SecondViewController *secondVC;
+    ThirdViewController *thirdVC;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

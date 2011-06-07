@@ -15,6 +15,7 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
+    // NSLog(@"%s", __FUNCTION__);
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -42,11 +43,13 @@
 
 - (void)dealloc
 {
+    // NSLog(@"%s", __FUNCTION__);
     [super dealloc];
 }
 
 - (void)didReceiveMemoryWarning
 {
+    // NSLog(@"%s", __FUNCTION__);
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
@@ -72,6 +75,7 @@
 
 - (void)viewDidUnload
 {
+    // NSLog(@"%s", __FUNCTION__);
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -79,6 +83,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    // NSLog(@"%s", __FUNCTION__);
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
