@@ -27,9 +27,12 @@
     secondVC = [[SecondViewController alloc] init];
     thirdVC = [[ThirdViewController alloc] init];
     
+    UINavigationController *thirdNavController = [[[UINavigationController alloc] initWithRootViewController:thirdVC] autorelease];
+    [thirdVC release];
+    
     // Add the root vie controllers to an array and assign that array to the tabbar controller's
     // viewcontrollers property
-    NSArray * controllers = [NSArray arrayWithObjects:firstVC, secondVC, thirdVC, nil];
+    NSArray * controllers = [NSArray arrayWithObjects:firstVC, secondVC, thirdNavController, nil];
     tabbarController.viewControllers = controllers;
     
     
